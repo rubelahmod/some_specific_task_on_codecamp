@@ -35,3 +35,18 @@ let firstElem= document.querySelector("#heading");
 console.dir(firstElem);
 let allElem= document.querySelectorAll("#heading");
 console.dir(allElem);
+
+
+
+////// working with inner text
+let div= document.querySelector("#frt");
+console.dir(div);
+console.log(div.innerText);
+
+//// inner HTML
+console.log(div.innerHTML);
+
+///// textContent(can access hidden element)
+let hidden = document.querySelector("#hidden");
+console.dir(hidden);
+console.dir(hidden.textContent);
