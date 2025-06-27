@@ -1,0 +1,25 @@
+h1{
+    color: blue;
+    background-color: burlywood;
+}
+body{
+    background-color: antiquewhite;
+}
+button{
+    color: white;
+    background-color: purple;
+}
+.headline{
+    color: bisque;
+    background-color: black;
+}
+
+.box{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(138, 159, 152);
+}
