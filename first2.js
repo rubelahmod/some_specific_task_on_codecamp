@@ -15,3 +15,23 @@ console.dir(paragraph);
 console.log(paragraph);
 
 
+
+/// Query selector
+
+//based on tag
+let firstElements= document.querySelector("p");
+console.dir(firstElements);
+let allElements= document.querySelectorAll("p");
+console.dir(allElements);
+
+//based on class
+let firstEle= document.querySelector(".headline");
+console.dir(firstEle);
+let allEle= document.querySelectorAll(".headline");
+console.dir(allEle);
+
+//based on id
+let firstElem= document.querySelector("#heading");
+console.dir(firstElem);
+let allElem= document.querySelectorAll("#heading");
+console.dir(allElem);
